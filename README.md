@@ -12,8 +12,8 @@ Nested cross validation: https://github.com/rasbt/stat451-machine-learningfs20/b
 Investigated the distribution of pre-coded features and labels. The distribution of the labels revealed that some labels had imbalance.  
 - Distribution of pre-coded features  
 ![alt text](https://github.com/nmfranck/Thesis-Project/blob/main/distribution%20of%20pre-coded%20features.png "Distribution pre-coded features")
-- Distribution of labels 
-
+- Distribution of labels  
+![alt text](https://github.com/nmfranck/Thesis-Project/blob/main/distribution%20of%20labels.png "Distribution labels")
 ## Text cleaning and preprocessing
 1. Removal of non-alphanumeric characters  
 2. Removal of stop words  
@@ -54,7 +54,7 @@ Two different topic models are used:
 I used the random forest model with LSA and TFIDF (best performance + tuned number of topics close to optimal number of topics according to coherence score) to find the most important topics using the 'feature importances'. This allowed to interpret these most important topics and create insight in what motivates the owner of a hotel to respond positively to an online review. 
 
 ## Conclusion
-The modelling results showed that these methods obtain good performance on common labels. Performance on the labels with an extreme imbalance (<1% of the observations had a label) was considerably lower. This performance could be increased by using resampling techniques. The results showed that the investigated methods can be used for a multi-label classification task based on open-ended survey data and can also be used to identify important topics that allow to generate insights in the online reviews.  
+The modelling results showed that these methods obtain good performance on common labels. Performance on the labels with an extreme imbalance (<2% of the observations had a label) was considerably lower. This performance could be increased by using resampling techniques. The results showed that the investigated methods can be used for a multi-label classification task based on open-ended survey data and can also be used to identify important topics that allow to generate insights in the online reviews.  
 
 
 
