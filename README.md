@@ -8,6 +8,12 @@ Python Version: 3.8
 Packages: pandas, sklearn, xgboost, seaborn, hyperopt, gensim, spacy, nltk  
 Nested cross validation: https://github.com/rasbt/stat451-machine-learningfs20/blob/master/L11/code/11-eval4-algo__nested-cv_verbose1.ipynb
 
+## EDA
+Investigated the distribution of pre-coded features and labels. The distribution of the labels revealed that some labels had imbalance.  
+- Distribution of pre-coded features  
+![alt text](https://github.com/nmfranck/Thesis-Project/blob/main/distribution%20of%20pre-coded%20features.png "Distribution pre-coded features")
+- Distribution of labels 
+
 ## Text cleaning and preprocessing
 1. Removal of non-alphanumeric characters  
 2. Removal of stop words  
